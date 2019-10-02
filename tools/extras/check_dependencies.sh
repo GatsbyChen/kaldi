@@ -136,7 +136,7 @@ case $(uname -m) in
     # installed in an alternative location (this is unlikely).
     MKL_ROOT="${MKL_ROOT:-/opt/intel/mkl}"
     if [ ! -f "${MKL_ROOT}/include/mkl.h" ] &&
-         ! echo '#include <mkl.h>' | $CXX -I /opt/intel/mkl/include -E - >&/dev/null; then
+         ! echo '#include <mkl.h>' | $CXX -I /home/zhy/intel/mkl/include -E - >&/dev/null; then
       if [[ $(uname) == Linux ]]; then
         echo "$0: Intel MKL is not installed. Run extras/install_mkl.sh to install it."
       else
