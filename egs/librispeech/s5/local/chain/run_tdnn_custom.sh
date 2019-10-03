@@ -1,0 +1,1 @@
+/home/zhy/Codes/kaldi/egs/librispeech/s5/local/chain/tuning/run_tdnn_1d_custom.sh
