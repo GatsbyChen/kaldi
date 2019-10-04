@@ -346,7 +346,7 @@ fi
 
 if [ $stage -le 20 ]; then
   # train and test nnet3 tdnn models on the entire data with data-cleaning.
-  local/chain/run_tdnn_custom.sh --train_set train_460_cleaned --gmm tri5b_cleaned # set "--stage 11" if you have already run local/nnet3/run_tdnn.sh
+  local/chain/run_tdnn_custom.sh --train_set train_clean_460_cleaned --gmm tri5b_cleaned # set "--stage 11" if you have already run local/nnet3/run_tdnn.sh
 fi
 
 # The nnet3 TDNN recipe:

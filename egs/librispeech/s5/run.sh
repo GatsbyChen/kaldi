@@ -24,13 +24,13 @@ if [ $stage -le 1 ]; then
   # download the data.  Note: we're using the 100 hour setup for
   # now; later in the script we'll download more and use it to train neural
   # nets.
-#  for part in dev-clean test-clean dev-other test-other train-clean-100; do
-#    local/download_and_untar.sh $data $data_url $part
-#  done
+  for part in dev-clean test-clean dev-other test-other train-clean-100; do
+    local/download_and_untar.sh $data $data_url $part
+  done
 
 
   # download the LM resources
-  local/download_lm.sh $lm_url data/local/lm
+#  local/download_lm.sh $lm_url data/local/lm
 fi
 
 if [ $stage -le 2 ]; then
@@ -265,7 +265,7 @@ if [ $stage -le 13 ]; then
   )&
 fi
 
-<<SKIP_FULL
+
 if [ $stage -le 14 ] && false; then
   # This stage is for nnet2 training on 100 hours; we're commenting it out
   # as it's deprecated.
@@ -422,7 +422,7 @@ fi
 # ## The following is an older version of the online-nnet2 recipe, without "multi-splice".  It's faster
 # ## to train but slightly worse.
 # # local/online/run_nnet2.sh
-SKIP_FULL
+
 
 # Wait for decodings in the background
 wait
