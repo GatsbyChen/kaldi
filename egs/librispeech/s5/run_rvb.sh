@@ -24,7 +24,7 @@ if [ $stage -le 1 ]; then
   # download the data.  Note: we're using the 100 hour setup for
   # now; later in the script we'll download more and use it to train neural
   # nets.
-#  for part in dev-clean test-clean dev-other test-other train-clean-100; do
+#  for part in dev-clean test-clean train-clean-100; do
 #    local/download_and_untar.sh $data $data_url $part
 #  done
 
@@ -35,7 +35,7 @@ fi
 
 if [ $stage -le 2 ]; then
   # format the data as Kaldi data directories
-  for part in dev-clean test-clean dev-other test-other train-clean-100; do
+  for part in dev-clean test-clean train-clean-100; do
     # use underscore-separated names in data directories.
     local/data_prep.sh $data/LibriSpeech/$part data/$(echo $part | sed s/-/_/g)
   done
