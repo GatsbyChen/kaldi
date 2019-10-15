@@ -55,26 +55,26 @@ if [ $stage -le 3 ]; then
     5000 100000 $cleaned_data data/lang ${srcdir}_ali_${cleanup_affix} ${cleaned_dir}
 fi
 
-if [ $stage -le 4 ]; then
-  # Test with the models trained on cleaned-up data.
-  utils/mkgraph.sh data/lang_test_tgsmall ${cleaned_dir} ${cleaned_dir}/graph_tgsmall
-
-  for dset in test_clean dev_clean; do
-    (
-    steps/decode_fmllr.sh --nj $decode_nj --num-threads $decode_num_threads \
-       --cmd "$decode_cmd" \
-       ${cleaned_dir}/graph_tgsmall data/${dset} ${cleaned_dir}/decode_${dset}_tgsmall
-    steps/lmrescore.sh --cmd "$decode_cmd" data/lang_test_{tgsmall,tgmed} \
-      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,tgmed}
-    steps/lmrescore_const_arpa.sh \
-      --cmd "$decode_cmd" data/lang_test_{tgsmall,tglarge} \
-      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,tglarge}
-    steps/lmrescore_const_arpa.sh \
-      --cmd "$decode_cmd" data/lang_test_{tgsmall,fglarge} \
-      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,fglarge}
-   ) &
-  done
-fi
+#if [ $stage -le 4 ]; then
+#  # Test with the models trained on cleaned-up data.
+#  utils/mkgraph.sh data/lang_test_tgsmall ${cleaned_dir} ${cleaned_dir}/graph_tgsmall
+#
+#  for dset in test_clean dev_clean; do
+#    (
+#    steps/decode_fmllr.sh --nj $decode_nj --num-threads $decode_num_threads \
+#       --cmd "$decode_cmd" \
+#       ${cleaned_dir}/graph_tgsmall data/${dset} ${cleaned_dir}/decode_${dset}_tgsmall
+#    steps/lmrescore.sh --cmd "$decode_cmd" data/lang_test_{tgsmall,tgmed} \
+#      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,tgmed}
+#    steps/lmrescore_const_arpa.sh \
+#      --cmd "$decode_cmd" data/lang_test_{tgsmall,tglarge} \
+#      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,tglarge}
+#    steps/lmrescore_const_arpa.sh \
+#      --cmd "$decode_cmd" data/lang_test_{tgsmall,fglarge} \
+#      data/${dset} ${cleaned_dir}/decode_${dset}_{tgsmall,fglarge}
+#   ) &
+#  done
+#fi
 
 wait;
 exit 0;

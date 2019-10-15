@@ -291,24 +291,24 @@ if [ $stage -le 16 ]; then
   steps/train_sat.sh  --cmd "$train_cmd" 5000 100000 \
                       data/train_clean_460 data/lang exp/tri4b_ali_clean_460 exp/tri5b
 
-  # decode using the tri5b model
-  (
-    utils/mkgraph.sh data/lang_test_tgsmall \
-                     exp/tri5b exp/tri5b/graph_tgsmall
-    for test in test_clean dev_clean; do
-      steps/decode_fmllr.sh --nj 20 --cmd "$decode_cmd" \
-                            exp/tri5b/graph_tgsmall data/$test \
-                            exp/tri5b/decode_tgsmall_$test
-      steps/lmrescore.sh --cmd "$decode_cmd" data/lang_test_{tgsmall,tgmed} \
-                         data/$test exp/tri5b/decode_{tgsmall,tgmed}_$test
-      steps/lmrescore_const_arpa.sh \
-        --cmd "$decode_cmd" data/lang_test_{tgsmall,tglarge} \
-        data/$test exp/tri5b/decode_{tgsmall,tglarge}_$test
-      steps/lmrescore_const_arpa.sh \
-        --cmd "$decode_cmd" data/lang_test_{tgsmall,fglarge} \
-        data/$test exp/tri5b/decode_{tgsmall,fglarge}_$test
-    done
-  )&
+#  # decode using the tri5b model
+#  (
+#    utils/mkgraph.sh data/lang_test_tgsmall \
+#                     exp/tri5b exp/tri5b/graph_tgsmall
+#    for test in test_clean dev_clean; do
+#      steps/decode_fmllr.sh --nj 20 --cmd "$decode_cmd" \
+#                            exp/tri5b/graph_tgsmall data/$test \
+#                            exp/tri5b/decode_tgsmall_$test
+#      steps/lmrescore.sh --cmd "$decode_cmd" data/lang_test_{tgsmall,tgmed} \
+#                         data/$test exp/tri5b/decode_{tgsmall,tgmed}_$test
+#      steps/lmrescore_const_arpa.sh \
+#        --cmd "$decode_cmd" data/lang_test_{tgsmall,tglarge} \
+#        data/$test exp/tri5b/decode_{tgsmall,tglarge}_$test
+#      steps/lmrescore_const_arpa.sh \
+#        --cmd "$decode_cmd" data/lang_test_{tgsmall,fglarge} \
+#        data/$test exp/tri5b/decode_{tgsmall,fglarge}_$test
+#    done
+#  )&
 fi
 
 
