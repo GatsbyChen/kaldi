@@ -17,6 +17,15 @@ If you use our codes or data, please consider citing:
   journal={arXiv preprint arXiv:1910.10815},
   year={2019}
 }
+@inproceedings{9054454,  
+  author={Z. {Tang} and H. {Meng} and D. {Manocha}},  
+  booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},  
+  title={Low-Frequency Compensated Synthetic Impulse Responses For Improved Far-Field Speech Recognition},   
+  year={2020},  
+  volume={},  
+  number={},  
+  pages={6974-6978},
+}
 ```
 We also recommend citing the BUT ReverbDB if you use them as well:
 ```
