@@ -11,12 +11,6 @@ If you have any questions regarding Kaldi itself, please refer to the [original 
 ## Citation
 If you use our codes or data, please consider citing:
 ```
-@article{tang2019lowfrequency,
-  title={Low-frequency Compensated Synthetic Impulse Responses for Improved Far-field Speech Recognition},
-  author={Tang, Zhenyu and Meng, Hsien-Yu and Manocha, Dinesh},
-  journal={arXiv preprint arXiv:1910.10815},
-  year={2019}
-}
 @inproceedings{9054454,  
   author={Z. {Tang} and H. {Meng} and D. {Manocha}},  
   booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},  
