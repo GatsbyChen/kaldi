@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script does discriminative training on top of the CE nnet3 system
 # from run_tdnn_d.  To simplify things, this assumes you are using the "speed-perturbed" data

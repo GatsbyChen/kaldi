@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Set -e here so that we catch if any executable fails immediately
 set -euo pipefail

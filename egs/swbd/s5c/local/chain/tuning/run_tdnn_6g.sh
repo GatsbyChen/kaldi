@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6g is as _6f but increasing the parameters (increasing
 # jesus-forward-input-from from 500 to 600).

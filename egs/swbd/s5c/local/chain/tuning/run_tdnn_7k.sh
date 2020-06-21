@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # run_tdnn_7k.sh is like run_tdnn_7h.sh but batchnorm components instead of renorm
 

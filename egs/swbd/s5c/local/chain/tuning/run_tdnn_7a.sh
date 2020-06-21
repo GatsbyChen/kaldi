@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7a inherits from 6z (which is a TDNN+ReLU-based network with various small
 # bugs hopefully fixed now), and from 6r, which is our most-successful

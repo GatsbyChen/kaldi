@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2016 Johns Hopkins University (Author: Daniel Povey, Vijayaditya Peddinti)
 #           2019 Vimal Manohar 
@@ -34,8 +34,6 @@ acwt=0.1 # important to change this when using chain models
 post_decode_acwt=1.0 # important to change this when using chain models
 extra_left_context_initial=0
 extra_right_context_final=0
-
-graph_affix=
 
 score_opts="--min-lmwt 6 --max-lmwt 13"
 
@@ -96,7 +94,7 @@ if [ $stage -le 2 ]; then
   fi
 fi
 
-decode_dir=$dir/decode${graph_affix}_${data_set}${affix}
+decode_dir=$dir/decode_${data_set}${affix}
 # generate the lattices
 if [ $stage -le 3 ]; then
   echo "Generating lattices, stage 1"

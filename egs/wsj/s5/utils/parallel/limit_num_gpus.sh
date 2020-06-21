@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script functions as a wrapper of a bash command that uses GPUs.
 #

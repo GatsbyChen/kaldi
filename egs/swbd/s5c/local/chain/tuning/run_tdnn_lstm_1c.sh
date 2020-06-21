@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # run_tdnn_lstm_1c.sh is like run_tdnn_lstm_1b.sh but using the
 # new 'fast-lstm' layer.  Results are slightly improved, plus

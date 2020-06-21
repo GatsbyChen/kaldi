@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script was copied from ../10hSystem/local (Author: Guoguo Chen?)
 # It will be modified to make it somewhat more reusable

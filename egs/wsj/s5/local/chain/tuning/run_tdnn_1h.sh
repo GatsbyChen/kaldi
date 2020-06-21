@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1h is as 1g but replaces the LDA layer at the input of the
 # network with traditional delta and delta-delta features.

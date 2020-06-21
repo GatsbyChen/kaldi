@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This is as 1a but increasing epochs from 4 to 10 and adding the option

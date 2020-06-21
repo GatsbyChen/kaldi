@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 train_cmd="utils/run.pl"
 decode_cmd="utils/run.pl"

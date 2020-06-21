@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyrigh       2017  Ignacio Viñals
 #           2017-2018  David Snyder
 #

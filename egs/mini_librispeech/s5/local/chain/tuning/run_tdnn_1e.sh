@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1e is as 1d but instead of the --proportional-shrink option, using
 #  the newly added xconfig-layer-specific 'l2-regularize' options.

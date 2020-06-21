@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # run_tdnn_lstm_1a.sh is a TDNN+LSTM system.  Compare with the TDNN

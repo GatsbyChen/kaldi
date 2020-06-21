@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is p-norm neural net training, with the "fast" script, on top of adapted
 # 40-dimensional features.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _2f is as _2d but following a code change, and with different LM options:
 #  --ngram-order=5 --num-lm-states=10000

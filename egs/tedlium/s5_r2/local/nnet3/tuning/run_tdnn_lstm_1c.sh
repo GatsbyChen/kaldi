@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # run_tdnn_lstm_1c.sh is as run_tdnn_lstm_1a.sh, but about 1.5 times larger
 # chunk lengths than 1a.

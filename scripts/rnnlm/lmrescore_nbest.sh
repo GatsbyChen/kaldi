@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is very similar to steps/rnnlmrescore.sh, and it performs n-best
 # LM rescoring with Kaldi-RNNLM.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2017  Radboud University (Author: Emre Yilmaz)
 #
 # This script is based on run_nnet2_multisplice.sh in

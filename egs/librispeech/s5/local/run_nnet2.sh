@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 train_set="train-clean-100"
 test_sets="dev-clean dev-other"

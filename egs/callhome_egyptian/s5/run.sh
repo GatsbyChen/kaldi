@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Johns Hopkins University (Author : Gaurav Kumar, Daniel Povey)
 # Recipe for CallHome Egyptian Arabic

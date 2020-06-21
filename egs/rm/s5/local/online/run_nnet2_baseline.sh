@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # this is a baseline for ./run_nnet2.sh, without

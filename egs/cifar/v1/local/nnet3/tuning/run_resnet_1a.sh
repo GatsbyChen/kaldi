@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # run_resnet_1a.sh is a quite well-performing resnet.
 #  It includes a form of shrinkage that approximates l2 regularization.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5j is as _5e, but omitting the iVectors.
 

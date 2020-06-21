@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2016 University of Sheffield (Jon Barker, Ricard Marxer)
 #                Inria (Emmanuel Vincent)

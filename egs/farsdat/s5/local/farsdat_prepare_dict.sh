@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2013   (Authors: Daniel Povey, Bagher BabaAli)
 

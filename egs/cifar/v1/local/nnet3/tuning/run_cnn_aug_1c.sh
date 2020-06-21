@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # aug_1c is the same as aug_1b but with many more epochs and smaller
 # final learning rate

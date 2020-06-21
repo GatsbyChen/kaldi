@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # note: see the newer, better script run_nnet2_wsj_joint.sh
 

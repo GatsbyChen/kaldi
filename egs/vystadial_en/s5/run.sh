@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright Ondrej Platek Apache 2.0
 renice 20 $$
 

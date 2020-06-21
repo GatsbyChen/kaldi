@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Remove excess utterances once they appear  more than a specified
 # number of times with the same transcription, in a data set.

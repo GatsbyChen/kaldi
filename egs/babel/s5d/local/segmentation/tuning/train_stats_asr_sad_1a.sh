@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is a script to train a TDNN for speech activity detection (SAD) 
 # using statistics pooling for long-context information.

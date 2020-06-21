@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Script to check the tool versions necessary for the aspire recipe
 function check_for_bad_sox {

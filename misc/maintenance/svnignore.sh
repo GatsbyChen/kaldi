@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script should be run from two levels up, as:
 # misc/maintenance/svnignore.sh

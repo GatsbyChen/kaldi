@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # DESC: Evaluate text detection bounding boxes
 #

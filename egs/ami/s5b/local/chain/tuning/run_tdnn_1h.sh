@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1g but adding two non-splicing layers towards the beginning
 # of the network, trained with 9 epochs.

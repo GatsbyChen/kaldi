@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -e -o pipefail
 set -o nounset                              # Treat unset variables as an error
 

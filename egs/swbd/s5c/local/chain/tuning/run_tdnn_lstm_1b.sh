@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Unlike 1a this setup interleaves the TDNN and LSTM layers.
 

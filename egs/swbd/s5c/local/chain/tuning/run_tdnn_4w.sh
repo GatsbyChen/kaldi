@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _4w is as _4v, but doubling --xent-regularize to 0.2 WER seems consistently a
 # bit worse, although final valid prob is very slightly better.

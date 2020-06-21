@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is neural net training on top of adapted 40-dimensional features.
 # This version of the script uses GPUs.  We distinguish it by putting "_gpu"

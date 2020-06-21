@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _p is as _m except with a code change in which we switch to a different, more
 # exact mechanism to deal with the edges of the egs, and correspondingly

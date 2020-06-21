@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 for l in $*; do
   grep WER exp/chain/tdnn_${l}_sp/decode_train_dev_sw1_tg/wer_* | utils/best_wer.sh

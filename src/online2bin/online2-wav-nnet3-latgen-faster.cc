@@ -58,8 +58,7 @@ void GetDiagnosticsAndPrintOutput(const std::string &utt,
   *tot_like += likelihood;
   KALDI_VLOG(2) << "Likelihood per frame for utterance " << utt << " is "
                 << (likelihood / num_frames) << " over " << num_frames
-                << " frames, = " << (-weight.Value1() / num_frames)
-                << ',' << (weight.Value2() / num_frames);
+                << " frames.";
 
   if (word_syms != NULL) {
     std::cerr << utt << ' ';

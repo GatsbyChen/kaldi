@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This runs on the full training set (with duplicates removed), with p-norm units, on top of fMLLR features, on GPU.

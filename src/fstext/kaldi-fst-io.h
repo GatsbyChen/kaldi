@@ -37,8 +37,8 @@
 namespace fst {
 
 // Read a binary FST using Kaldi I/O mechanisms (pipes, etc.)
-// On error returns NULL. Only supports VectorFst and exists
-// mainly for backward code compabibility.
+// On error, throws using KALDI_ERR.  Note: this
+// doesn't support the text-mode option that we generally like to support.
 VectorFst<StdArc> *ReadFstKaldi(std::string rxfilename);
 
 // Read a binary FST using Kaldi I/O mechanisms (pipes, etc.)
@@ -46,8 +46,7 @@ VectorFst<StdArc> *ReadFstKaldi(std::string rxfilename);
 // otherwise it prints a warning and returns. Note:this
 // doesn't support the text-mode option that we generally like to support.
 // This version currently supports ConstFst<StdArc> or VectorFst<StdArc>
-// (const-fst can give better performance for decoding). Other
-// types could be also loaded if registered inside OpenFst.
+// (const-fst can give better performance for decoding).
 Fst<StdArc> *ReadFstKaldiGeneric(std::string rxfilename,
                                  bool throw_on_err = true);
 

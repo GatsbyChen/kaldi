@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright Brno University of Technology (Author: Karel Vesely) 2014.  Apache 2.0.
 
 # This script converts lattices to HTK format compatible with other toolkits.

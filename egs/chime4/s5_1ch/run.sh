@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Kaldi ASR baseline for the CHiME-4 Challenge (1ch track: single channel track)
 #

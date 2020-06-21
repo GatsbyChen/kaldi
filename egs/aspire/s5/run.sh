@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #  ASpIRE submission, based on Fisher-english GMM-HMM system
 # (March 2015)

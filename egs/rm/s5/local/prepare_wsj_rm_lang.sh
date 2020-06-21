@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2017 Pegah Ghahremani
 
 # This script prepares a dictionary for wsj-to-rm transfer learning experiment,

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #  INPUT:
 #		LANGUAGE - SLAM language to evaluate

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7b is as 6z, but increasing the relu-dim slightly from 576 to 625.
 

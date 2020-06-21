@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is modified from swbd/s5c/local/nnet3/run_tdnn.sh
 # Tomohiro Tanaka 15/05/2016

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _2j is as _2i but with --num-extra-lm-states=1000, not 2000.
 # see table in run_tdnn_2a.sh for results

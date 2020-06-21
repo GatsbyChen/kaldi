@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6p is as _6j, but increasing the various regularization coefficients.
 # the intention is to increase them by 4/3, since they are all evaluated

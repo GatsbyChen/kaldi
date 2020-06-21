@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _lfr1c is as _lfr1a, but uses splicing similar to chain's without changing
 # number of layers (comparable non-LFR system is tdnn_e).

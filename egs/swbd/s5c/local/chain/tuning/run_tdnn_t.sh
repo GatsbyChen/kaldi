@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # _t is as _s but setting pdf-boundary-penalty to 2.0

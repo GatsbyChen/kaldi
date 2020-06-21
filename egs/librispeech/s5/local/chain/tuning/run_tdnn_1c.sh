@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -e
 
 ## Adapted from swbd for librispeech by David van Leeuwen

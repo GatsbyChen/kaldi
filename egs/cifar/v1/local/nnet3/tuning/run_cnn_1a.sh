@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # note: the final 'valid accuracy' (0.69) is actually the test accuracy.

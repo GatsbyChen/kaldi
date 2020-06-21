@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _4s is as _4f, but with --leaky-hmm-coefficient 0.02.  [A new option-
 #currently in a branch]

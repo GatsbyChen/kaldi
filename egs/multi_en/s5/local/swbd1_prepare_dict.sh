@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 ###########################################################################################
 # This script was copied from egs/swbd/s5c/local/swbd1_prepare_dict.sh

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is copied from tedlium/s5_r2/local/chain/tuning/run_tdnn_1g.sh setup, and it replaces the current run_tdnn_1b.sh script. 
 

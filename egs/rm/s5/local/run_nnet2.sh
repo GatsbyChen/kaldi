@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # You don't have to run all these.  
 # you can pick and choose.  Look at the RESULTS file..

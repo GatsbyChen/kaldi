@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # e is as c, but uses splicing similar to chain's without changing number of
 # layers.

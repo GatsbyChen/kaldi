@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script trains a multilingual model using 6 layer TDNN + Xent
 # with 42 dim bottleneck layer in th fifth layer.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6a is as _5y, where we keep the hidden parts of the network a bit larger
 # but take the final-hidden-dim back up to 500, which is the same as what

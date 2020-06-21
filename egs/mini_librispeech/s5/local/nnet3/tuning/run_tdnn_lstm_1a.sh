@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is a basic TDNN+LSTM nnet3 experiment.
 

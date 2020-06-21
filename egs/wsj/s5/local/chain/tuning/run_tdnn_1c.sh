@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1c is as 1b but using batchnorm instead of renorm
 # 1b is as 1a but using --proportional-shrink=60.0

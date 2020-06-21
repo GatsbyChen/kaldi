@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2012  Brno University of Technology (Author: Karel Vesely)
 #           2013  Johns Hopkins University (Author: Daniel Povey)
 #           2015  Vijayaditya Peddinti
@@ -59,7 +59,7 @@ sdata=$data/split${nj}
 
 if $use_gpu; then
   queue_opt="--gpu 1"
-  gpu_opt="--use-gpu=wait"
+  gpu_opt="--use-gpu=yes"
 else
   queue_opt=""
   gpu_opt="--use-gpu=no"

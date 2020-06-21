@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1g is like 1f but upgrading to a "resnet-style TDNN-F model", i.e.
 #   with bypass resnet connections, and re-tuned.

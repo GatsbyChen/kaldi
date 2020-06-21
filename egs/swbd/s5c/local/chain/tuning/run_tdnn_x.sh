@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _x is as _s but setting     --lm-opts "--num-extra-states=0".
 #  this is a kind of repeat of the u->v experiment, where it seemed to make things

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This is discriminative training, to be run after run_nnet2.sh.

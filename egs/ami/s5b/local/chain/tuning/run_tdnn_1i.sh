@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1h but replacing proportional-shrink with l2-regularize.
 # The results match those from 1h.

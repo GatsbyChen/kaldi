@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Adapted from egs/mini_librispeech/s5/local/chain/tuning/run_tdnn_1g.sh
 

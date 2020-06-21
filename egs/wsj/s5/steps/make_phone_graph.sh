@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # steps/make_phone_graph.sh data/train_100k_nodup/ data/lang exp/tri2_ali_100k_nodup/ exp/tri2
 

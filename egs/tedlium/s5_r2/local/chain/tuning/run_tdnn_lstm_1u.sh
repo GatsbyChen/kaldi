@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1u is the same as 1t but adding per-frame dropout to LSTM
 # in location4, see paper : http://www.danielpovey.com/files/2017_interspeech_dropout.pdf

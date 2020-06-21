@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6c is as _5v but adding "--thick-jesus-layer true" (new option): extra hidden
 # layer inside jesus layer.

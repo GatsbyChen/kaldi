@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1b is as 1a but a re-tuned model with quite a few changes, including moving to
 #   a resnet-style factored TDNN-F model.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1f is as 1a but using --proportional-shrink=60.0
 

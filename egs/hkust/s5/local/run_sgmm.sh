@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2016 Alibaba Robotics Corp. (Author: Xingyu Na)
 # Apache2.0
 

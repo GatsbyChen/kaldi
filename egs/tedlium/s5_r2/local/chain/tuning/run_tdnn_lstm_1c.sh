@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1c is as 1b, but adding the option --slow-start true. [since removed; it
 # takes half the param change from the first two minibatches of each

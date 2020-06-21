@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7f is as 7e, but adding the max-change-per-component to the neural net training
 # which affects results slightly

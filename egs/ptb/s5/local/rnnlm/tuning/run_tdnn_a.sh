@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # To be run from the directory egs/ptb/s5.
 # This is to be done after local/prepare_rnnlm_data.sh.

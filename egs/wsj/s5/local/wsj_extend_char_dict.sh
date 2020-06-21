@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2017   Hossein Hadian
 
 # This script extends the word list by including OOVs from the training

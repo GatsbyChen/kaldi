@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1k is as 1e, but introducing a dropout schedule.
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 ###########################################################################################
 # This script was copied from egs/fisher_swbd/s5/local/fisher_data_prep.sh

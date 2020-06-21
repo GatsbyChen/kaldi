@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1c is as 1b but replacing the renorm with batchnorm components
 # (i.e. NormalizeComponent with BatchNormComponent).

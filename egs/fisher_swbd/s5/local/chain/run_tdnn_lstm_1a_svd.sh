@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Copyright 2018  Nagendra Kumar Goel,
 #            Saikiran Valluri, Govivace.Inc -  Apache 2.0

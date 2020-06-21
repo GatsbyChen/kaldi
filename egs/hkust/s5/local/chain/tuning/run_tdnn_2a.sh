@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is based on run_tdnn_7p.sh in swbd chain recipe.
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script checks if TF is installed to be used with python
 #                    and if TF related binaries in kaldi is ready to use

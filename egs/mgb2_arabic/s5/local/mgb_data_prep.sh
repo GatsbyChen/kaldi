@@ -1,11 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright (C) 2016, Qatar Computing Research Institute, HBKU
 #               2016-2019  Vimal Manohar
 #               2019 Dongji Gao
 
-if [ $# -ne 3 ]; then
-  echo "Usage: $0 <DB-dir> <mer-sel> <process-xml>"
+if [ $# -ne 2 ]; then
+  echo "Usage: $0 <DB-dir> <mer-sel>"
   exit 1;
 fi
 
@@ -23,6 +23,12 @@ for x in $train_dir $dev_dir; do
   fi
 done
 
+if [ -z $(which xml) ]; then
+  echo "$0: Could not find tool xml"
+  echo "$0: Download and install it from xmlstar.sourceforge.net"
+  exit 1
+fi
+
 find $db_dir/train/wav -type f -name "*.wav" | \
   awk -F/ '{print $NF}' | perl -pe 's/\.wav//g' > \
   $train_dir/wav_list
@@ -33,33 +39,11 @@ head -500 $train_dir/wav_list > $train_dir/wav_list.short
 set -e -o pipefail
 
 xmldir=$db_dir/train/xml/bw
-if [ $process_xml == "python" ]; then
-  echo "using python to process xml file"
-  # check if bs4 and lxml are installin in python
-  local/check_tools.sh
-  # process xml file using python
-  cat $train_dir/wav_list | while read basename; do
+cat $train_dir/wav_list | while read basename; do
     [ ! -e $xmldir/$basename.xml ] && echo "Missing $xmldir/$basename.xml" && exit 1
-    local/process_xml.py $xmldir/$basename.xml - | local/add_to_datadir.py $basename $train_dir $mer
-  done
-elif [ $process_xml == 'xml' ]; then
-  # check if xml binary exsits
-  if command -v xml >/dev/null 2>/dev/null; then
-    echo "using xml"
-    cat $train_dir/wav_list | while read basename; do
-      [ ! -e $xmldir/$basename.xml ] && echo "Missing $xmldir/$basename.xml" && exit 1
-      xml sel -t -m '//segments[@annotation_id="transcript_align"]' -m "segment" -n -v  "concat(@who,' ',@starttime,' ',@endtime,' ',@WMER,' ')" -m "element" -v "concat(text(),' ')" $xmldir/$basename.xml | local/add_to_datadir.py $basename $train_dir $mer
-      echo $basename $wavDir/$basename.wav >> $train_dir/wav.scp
-    done
-  else
-    echo "xml not found, you may use python by '--process-xml python'"
-    exit 1;
-  fi
-else
-  # invalid option
-  echo "$0: invalid option for --process-xml, choose from 'xml' or 'python'"
-  exit 1;
-fi
+    xml sel -t -m '//segments[@annotation_id="transcript_align"]' -m "segment" -n -v  "concat(@who,' ',@starttime,' ',@endtime,' ',@WMER,' ')" -m "element" -v "concat(text(),' ')" $xmldir/$basename.xml | local/add_to_datadir.py $basename $train_dir $mer
+    echo $basename $wavDir/$basename.wav >> $train_dir/wav.scp
+done 
 
 for x in text segments; do
   cp $db_dir/dev/${x}.all $dev_dir/${x}

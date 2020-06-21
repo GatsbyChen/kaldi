@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 models=""
 for x in $*; do   models="$models tdnn_${x}";   done

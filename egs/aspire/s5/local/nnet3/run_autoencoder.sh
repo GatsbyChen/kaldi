@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is an example to show a "tdnn" system in raw nnet configuration
 # i.e. without a transition model

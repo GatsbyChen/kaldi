@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Inherited from the WSJ nnet3 recipe, modified for use with ECA
 

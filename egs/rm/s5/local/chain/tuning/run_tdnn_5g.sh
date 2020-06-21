@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is modified from run_tdnn_5f.sh, to use the old topology, as a baseline
 # to test the modified transition-model code (by which we hope to be able to

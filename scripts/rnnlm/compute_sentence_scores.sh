@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is very similar to utils/rnnlm_compute_scores.sh, and it computes
 # log-likelihoods from a Kaldi-RNNLM model instead of that of Mikolov's RNNLM.

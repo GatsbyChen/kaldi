@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is the original TDNN script before we introduced xconfigs.
 # See run_tdnn_1b.sh for comparative results.

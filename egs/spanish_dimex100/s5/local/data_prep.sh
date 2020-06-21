@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 ## Only run this file from the example root directory
 ##      $ ./local/data_prep.sh

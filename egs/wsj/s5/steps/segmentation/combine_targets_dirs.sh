@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2017 Nagendra Kumar Goel
 #           2018 Vimal Manohar   

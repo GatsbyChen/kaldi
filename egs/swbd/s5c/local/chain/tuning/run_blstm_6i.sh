@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 6i based on run_blstm_6h.sh, but changing the HMM context from triphone to left biphone.
 

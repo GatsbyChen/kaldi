@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script uses weight transfer as a transfer learning method to transfer
 # already trained neural net model on wsj to rm.
@@ -165,6 +165,7 @@ if [ $stage -le 8 ]; then
     --cmd "$decode_cmd" \
     --trainer.input-model $dir/input.raw \
     --feat.online-ivector-dir "$ivector_dir" \
+    --chain.xent-regularize $xent_regularize \
     --feat.cmvn-opts "--norm-means=false --norm-vars=false" \
     --chain.xent-regularize $xent_regularize \
     --chain.leaky-hmm-coefficient 0.1 \

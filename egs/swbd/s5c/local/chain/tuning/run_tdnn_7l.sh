@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7l is based on 7h, but adding a 64 dim lowrank module in the xent branch
 #System                   tdnn_7h    tdnn_7l

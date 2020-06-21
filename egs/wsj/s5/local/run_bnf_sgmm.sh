@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script builds the SGMM system on top of the kaldi internal bottleneck features.
 

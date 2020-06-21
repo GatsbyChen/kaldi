@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copied from egs/mini_librispeech/s5/local/chain/compare_wer.sh (commit 421a062477d732fc02e2109b9d50857ae0f18661)
 

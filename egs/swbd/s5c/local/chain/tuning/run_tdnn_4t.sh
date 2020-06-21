@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _4t is as _4s, but with --leaky-hmm-coefficient 0.04.
 

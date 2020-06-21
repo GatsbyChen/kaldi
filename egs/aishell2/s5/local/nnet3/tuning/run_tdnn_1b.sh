@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is based on run_tdnn_1a.sh, but with pitch features applied
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # run_tdnn_lfr_1a.sh is similar in configuration to run_tdnn_1c.sh, but it's a

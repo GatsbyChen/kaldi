@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2013-2014  Johns Hopkins University (authors: Jan Trmal, Guoguo Chen, Dan Povey)
 # Copyright (c) 2016, Johns Hopkins University (Yenda Trmal <jtrmal@gmail.com> )
 # License: Apache 2.0

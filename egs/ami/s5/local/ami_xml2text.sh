@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright, University of Edinburgh (Pawel Swietojanski and Jonathan Kilgour)
 

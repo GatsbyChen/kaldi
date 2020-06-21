@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 targetDir=$1
 

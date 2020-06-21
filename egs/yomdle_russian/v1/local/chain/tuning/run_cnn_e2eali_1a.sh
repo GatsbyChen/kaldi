@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # local/chain/compare_wer.sh exp/chain/cnn_e2eali_1a
 # System                      cnn_e2eali_1a      rescoring + nomalized

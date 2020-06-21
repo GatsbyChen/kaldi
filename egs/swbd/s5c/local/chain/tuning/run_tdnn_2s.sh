@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _2s is as _2o, but another topology, this time with 3 states and 3 pdf-ids
 # worse :-(

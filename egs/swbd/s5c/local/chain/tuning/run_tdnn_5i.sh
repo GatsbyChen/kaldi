@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5i is as _5g, but adding the mean+stddev features for all hidden layers.
 # a little worse than 5g (but for Remi Francis it was a little better).

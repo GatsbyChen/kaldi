@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 dir=exp/tri6_nnet
 train_stage=-10
 realign_epochs="6 10"

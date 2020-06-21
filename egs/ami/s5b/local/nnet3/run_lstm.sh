@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #    This is the standard "lstm" system, built in nnet3.
 # Please see RESULTS_* for examples of command lines invoking this script.

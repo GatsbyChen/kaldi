@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # THIS SCRIPT IS DEPRECATED, see ./train_dnn.py
 

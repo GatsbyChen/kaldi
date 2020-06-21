@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # 1b is like 1a but instead of having 3 fast-lstm-layers, having one

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _h is as _g but different application of max-param-change (use --scale-max-param-change true)
 # The WER is quite a bit worse.

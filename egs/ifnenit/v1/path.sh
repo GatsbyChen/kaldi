@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # path to Kaldi's root directory
 export KALDI_ROOT=`pwd`/../../..

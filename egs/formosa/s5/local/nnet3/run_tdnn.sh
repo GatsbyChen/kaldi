@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is based on swbd/s5c/local/nnet3/run_tdnn.sh
 

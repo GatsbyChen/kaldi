@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is a replica of_6h script, but makes use of the python trainer
 set -e

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Prints a table makes it easy to compare WER and objective values across nnet3
 # and chain training runs

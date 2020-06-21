@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is a TDNN+LSTM system; the configuration is similar to
 # local/chain/tuning/run_tdnn_lstm_1e.sh, but a non-chain nnet3 system, and

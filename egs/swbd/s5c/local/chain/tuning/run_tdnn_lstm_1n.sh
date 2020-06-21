@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # 1n is as 1m but with significant changes, replacing TDNN layers with a

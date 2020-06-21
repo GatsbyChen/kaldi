@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6n is as _6m, but with a less-wide splicing context.
 

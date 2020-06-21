@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1n but replacing proportional-shrink with l2-regularize.
 # Also applied similar changes from 1i to 1j:

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This is on the full training set (with duplicates removed).  This version of the recipe runs on GPUs.

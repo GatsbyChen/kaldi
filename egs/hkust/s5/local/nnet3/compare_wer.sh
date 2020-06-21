@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2018  Emotech LTD (Author: Xuechen Liu)
 
 # compare wer between diff. models in hkust nnet3 directory

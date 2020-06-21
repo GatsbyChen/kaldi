@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is based on Dan's tdnn_2o script
 # it has a different splicing configuration
