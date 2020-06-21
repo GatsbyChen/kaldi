@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Comparing with 5e which is the most recent baseline we actually decoded,
 # 5s is as 5e but with jesus-forward-output-dim reduced 1800->1700,

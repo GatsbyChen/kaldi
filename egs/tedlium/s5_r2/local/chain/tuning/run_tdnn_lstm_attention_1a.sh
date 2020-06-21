@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # In this recipe we replace the last LSTM layer with an attention layer
 # which leads to some consistent improvements in WER

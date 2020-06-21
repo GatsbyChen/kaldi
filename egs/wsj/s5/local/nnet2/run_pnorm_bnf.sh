@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Note: In order to run BNF, run run_bnf.sh
 use_gpu=true

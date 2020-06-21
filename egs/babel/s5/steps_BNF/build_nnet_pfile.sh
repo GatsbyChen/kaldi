@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright 2013  Carnegie Mellon University (Author: Yajie Miao)
 # Apache 2.0
 

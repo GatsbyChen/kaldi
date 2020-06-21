@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script is a modified version of run_tdnn_5g.sh. It uses
 # the new transition model and the python version of training scripts.

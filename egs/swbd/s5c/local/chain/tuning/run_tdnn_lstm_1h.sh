@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1h is like 1e, but reducing the hidden-dims from 1024 to 880.
 

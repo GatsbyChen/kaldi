@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # tdnn_blstm_1d is same as tdnn_blstm_1c, but with the perframe-dropout added
 

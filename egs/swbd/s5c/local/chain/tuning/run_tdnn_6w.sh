@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 6w is as 6v (a new tdnn-based recipe), but using 1.5 million not 1.2 million
 # frames per iter (and of course re-dumping the egs).

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # run_cnn_aug_1b.sh is like run_cnn_aug_1a.sh but setting
 # num-minibatches-history=40.0 (longer history for natural gradient),

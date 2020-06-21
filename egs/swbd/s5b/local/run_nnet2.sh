@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This shows what you can potentially run; you'd probably want to pick and choose.

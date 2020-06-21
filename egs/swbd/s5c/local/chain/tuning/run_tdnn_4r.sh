@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _4r is as _4f, but one more hidden layer, and reducing context of existing
 # layers so we can re-use the egs.  Reducing jesus-forward-output-dim slightly

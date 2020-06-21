@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 for test in dev93 eval92; do
 

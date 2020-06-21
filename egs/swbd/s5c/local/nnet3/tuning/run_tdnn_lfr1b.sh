@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _lfr1b is as _lfr1a, but with one more -3,3 layer (the comparable
 # non-LFR system is tdnn_d)

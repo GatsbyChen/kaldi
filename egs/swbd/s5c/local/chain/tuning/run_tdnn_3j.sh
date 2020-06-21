@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _3j is as _3i but using BlockAffineComponent instead of
 # RepeatedAffineComponent in Jesus layers. (see --use-repeated-affine false

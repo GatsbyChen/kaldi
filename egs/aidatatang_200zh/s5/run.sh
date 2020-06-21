@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2019 Beijing DataTang Tech. Co. Ltd. (Author: Liyuan Wang)
 #           2017 Hui Bu

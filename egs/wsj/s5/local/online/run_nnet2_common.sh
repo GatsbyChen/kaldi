@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script is called from scripts like run_nnet2.sh; it does
 # the common stages of the build.

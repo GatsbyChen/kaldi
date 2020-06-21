@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 locdata=$1; shift
 locdict=$1; shift

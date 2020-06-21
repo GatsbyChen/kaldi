@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script contains some common (shared) parts of the run_nnet*.sh scripts.
 # speed perturbation is done for the training data

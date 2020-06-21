@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5h is as _5g, but only mean, no stddev, stats.
 

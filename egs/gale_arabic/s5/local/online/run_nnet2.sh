@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2014  Vimal Manohar
 # This is our online neural net build for Gale system

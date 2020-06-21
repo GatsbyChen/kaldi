@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Same as 7h but double the number of parameters (27983950 vs 15551509)
 

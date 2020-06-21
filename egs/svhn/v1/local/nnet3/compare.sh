@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script is used for comparing trained models between systems.
 # e.g. local/nnet3/compare.sh exp/resnet1{b,c}

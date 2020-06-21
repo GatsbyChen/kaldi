@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # local/chain/compare_wer.sh exp/chain/e2e_cnn_1a/ exp/chain/cnn_e2eali_1a
 # System                      e2e_cnn_1a cnn_e2eali_1a

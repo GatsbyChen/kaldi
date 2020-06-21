@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #adapted from swbd's local/chain/6z.sh script. We change the TDNN config
 # These are the other modifications:

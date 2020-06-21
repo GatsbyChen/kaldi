@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script has common stages shared across AMI chain recipes
 set -e

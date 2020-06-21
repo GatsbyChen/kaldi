@@ -298,9 +298,8 @@ void UnitTestLstmNonlinearity() {
       CuMatrix<BaseFloat> perturbed_output(num_rows, 2 * cell_dim);
       cu::ComputeLstmNonlinearity(perturbed_input, perturbed_params,
                                   &perturbed_output);
-      CuMatrix<BaseFloat> delta_output(perturbed_output);
-      delta_output.AddMat(-1.0, output);
-      BaseFloat objf_change = TraceMatMat(delta_output, output_deriv, kTrans);
+      BaseFloat new_objf = TraceMatMat(perturbed_output, output_deriv, kTrans),
+          objf_change = new_objf - baseline_objf;
       measured_objf_change(i) = objf_change;
     }
     KALDI_LOG << "LSTM nonlinearity test: num_rows=" << num_rows

@@ -53,7 +53,7 @@
 #undef DCHECK_GE
 #undef DCHECK_NE
 
-#include "tensorflow/cc/saved_model/loader.h"
+#include "tensorflow/core/public/session.h"
 
 using tensorflow::Session;
 using tensorflow::Tensor;
@@ -97,7 +97,9 @@ class KaldiTfRnnlmWrapper {
                       const std::string &word_symbol_table_rxfilename,
                       const std::string &unk_prob_file,
                       const std::string &tf_model_path);
-  ~KaldiTfRnnlmWrapper();
+  ~KaldiTfRnnlmWrapper() {
+    session_->Close();
+  }
 
   int32 GetEos() const { return eos_; }
 
@@ -154,14 +156,7 @@ class KaldiTfRnnlmWrapper {
   // this corresponds to the RNNLM symbol table
   int32 num_rnn_words;
 
-  // for TF computation
-  tensorflow::SavedModelBundle bundle_;
-  std::string word_id_tensor_name_;
-  std::string context_tensor_name_;
-  std::string log_prob_tensor_name_;
-  std::string rnn_out_tensor_name_;
-  std::string rnn_states_tensor_name_;
-  std::string initial_state_tensor_name_;
+  Session* session_;  // for TF computation; pointer owned here
   int32 eos_;
   int32 oos_;
 

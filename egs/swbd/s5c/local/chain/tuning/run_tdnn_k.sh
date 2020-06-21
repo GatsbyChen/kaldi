@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _k is as _i but reverting the g->h change, removing the --scale-max-param-change
 # option and setting max-param-change to 1..  Using the same egs.

@@ -33,7 +33,7 @@ namespace kaldi {
 /// \addtogroup table_types
 /// @{
 
-typedef TableWriter<KaldiObjectHolder<MatrixBase<BaseFloat> > >
+typedef TableWriter<KaldiObjectHolder<Matrix<BaseFloat> > >
                     BaseFloatMatrixWriter;
 typedef SequentialTableReader<KaldiObjectHolder<Matrix<BaseFloat> > >
                              SequentialBaseFloatMatrixReader;
@@ -42,7 +42,7 @@ typedef RandomAccessTableReader<KaldiObjectHolder<Matrix<BaseFloat> > >
 typedef RandomAccessTableReaderMapped<KaldiObjectHolder<Matrix<BaseFloat> > >
                                       RandomAccessBaseFloatMatrixReaderMapped;
 
-typedef TableWriter<KaldiObjectHolder<MatrixBase<double> > >
+typedef TableWriter<KaldiObjectHolder<Matrix<double> > >
                                       DoubleMatrixWriter;
 typedef SequentialTableReader<KaldiObjectHolder<Matrix<double> > >
                               SequentialDoubleMatrixReader;
@@ -54,7 +54,7 @@ typedef RandomAccessTableReaderMapped<KaldiObjectHolder<Matrix<double> > >
 typedef TableWriter<KaldiObjectHolder<CompressedMatrix> >
                                       CompressedMatrixWriter;
 
-typedef TableWriter<KaldiObjectHolder<VectorBase<BaseFloat> > >
+typedef TableWriter<KaldiObjectHolder<Vector<BaseFloat> > >
                                       BaseFloatVectorWriter;
 typedef SequentialTableReader<KaldiObjectHolder<Vector<BaseFloat> > >
                               SequentialBaseFloatVectorReader;
@@ -63,7 +63,7 @@ typedef RandomAccessTableReader<KaldiObjectHolder<Vector<BaseFloat> > >
 typedef RandomAccessTableReaderMapped<KaldiObjectHolder<Vector<BaseFloat> > >
                                       RandomAccessBaseFloatVectorReaderMapped;
 
-typedef TableWriter<KaldiObjectHolder<VectorBase<double> > >
+typedef TableWriter<KaldiObjectHolder<Vector<double> > >
                                       DoubleVectorWriter;
 typedef SequentialTableReader<KaldiObjectHolder<Vector<double> > >
                               SequentialDoubleVectorReader;

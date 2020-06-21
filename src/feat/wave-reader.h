@@ -22,7 +22,7 @@
 
 /*
 // THE WAVE FORMAT IS SPECIFIED IN:
-// https://en.wikipedia.org/wiki/WAV
+// https:// ccrma.stanford.edu/courses/422/projects/WaveFormat/
 //
 //
 //

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1e but uses batchnorm components instead of renorm also adding
 # proportional-shrink 10, trained with 4 epochs

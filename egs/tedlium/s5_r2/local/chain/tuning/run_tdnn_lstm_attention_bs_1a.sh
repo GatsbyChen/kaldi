@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # tdnn_lstm_attention_bs_1a is like tdnn_lstm_1v (i.e. it uses backstitch)
 # except we replace the last LSTM layer with an attention layer

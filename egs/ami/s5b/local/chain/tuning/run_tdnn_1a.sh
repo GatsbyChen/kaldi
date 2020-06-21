@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is a chain-training script with TDNN neural networks.
 # Please see RESULTS_* for examples of command lines invoking this script.

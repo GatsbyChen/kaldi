@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 4d2 is as 4d but adding perturbed training with multiplier=1.0
 

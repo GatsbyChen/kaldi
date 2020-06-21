@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2015  Johns Hopkins University (Author: Vijayaditya Peddinti)
 #                 Guoguo Chen

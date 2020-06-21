@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #######################
 # 1g is as 1e, but reducing decay-time further from 20 to 10.

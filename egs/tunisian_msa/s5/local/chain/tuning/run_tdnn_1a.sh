@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Uses a resnet-style factored TDNN-F model.
 

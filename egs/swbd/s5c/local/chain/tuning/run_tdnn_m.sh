@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _m is as _k but after a code change that makes the denominator FST more
 # compact.  I am rerunning in order to verify that the WER is not changed (since

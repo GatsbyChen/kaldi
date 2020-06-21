@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _2q is as _2o but changing from 9000 -> 6000 states as the target.
 #  (like 2p, where it wasn't helpful, but doing this experiment for the topology with fewer state).

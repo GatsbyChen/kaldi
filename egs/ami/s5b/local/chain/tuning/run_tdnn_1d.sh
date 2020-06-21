@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1b but uses PCA instead of
 # LDA features for the ivector extractor.

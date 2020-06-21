@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2010-2012  Microsoft Corporation;  Arnab Ghoshal
 

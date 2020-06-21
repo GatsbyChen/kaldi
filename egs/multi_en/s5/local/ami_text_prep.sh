@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 ###########################################################################################
 # This script was copied from egs/ami/s5/local/ami_text_prep.sh

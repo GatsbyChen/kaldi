@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7m is as 7k but adding two non-splicing layers towards the beginning of the
 #   network.

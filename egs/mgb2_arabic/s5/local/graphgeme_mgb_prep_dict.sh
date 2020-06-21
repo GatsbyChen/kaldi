@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # Copyright (C) 2016, Qatar Computing Research Institute, HBKU

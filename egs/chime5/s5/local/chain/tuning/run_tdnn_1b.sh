@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This factorized TDNN (TDNN-F) script is ported from s5b recipe
 # It uses resnet-style skip connections.

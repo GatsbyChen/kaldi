@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1d is as 1c but introducing two non-splicing layers towards the beginning of
 #   the network.

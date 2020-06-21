@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script creates speed perturbed versions of the training data
 # and generates the corresponding alignments

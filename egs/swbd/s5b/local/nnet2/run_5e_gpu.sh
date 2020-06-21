@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this is as 5d (100 hour subset, pnorm),
 # but on top of the raw-fMLLR input

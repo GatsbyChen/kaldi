@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1s is as 1e, but adding per-frame dropout to LSTM in location4
 # as paper : http://www.danielpovey.com/files/2017_interspeech_dropout.pdf

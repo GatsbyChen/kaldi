@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1c is like 1b, but changing renorm to batchnorm and adding l2 regularization.
 

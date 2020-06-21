@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _r is as _q except adding --lm-opts "--num-extra-states=0"
 # to reduce the size of the phone LM.  Not really expecting much difference

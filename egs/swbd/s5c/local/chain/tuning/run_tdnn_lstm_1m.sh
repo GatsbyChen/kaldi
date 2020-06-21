@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # tdnn_lstm_1m is same as tdnn_lstm_1j, but with batchnorm-layer and decay-time
 # option

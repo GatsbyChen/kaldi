@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5b is as _5a, but adding --leaky-hmm-coefficient 0.1.
 

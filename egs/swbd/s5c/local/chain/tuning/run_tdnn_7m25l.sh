@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 7m25l is as 7m25j but with no dropout on the prefinal layer.  Hoping to resolve
 # bad objf in middle of training.

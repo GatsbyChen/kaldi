@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # _6s is as _6r, but changing the splicing indexes to be exactly the same as 6h,

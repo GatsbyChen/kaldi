@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is a basic TDNN experiment.(As the speed_perturbation is done by default,
 # the _sp suffix on the directory name is removed.)

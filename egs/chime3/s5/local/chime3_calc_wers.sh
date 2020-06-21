@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #  Copyright  2015  Mitsubishi Electric Research Laboratories (Author: Shinji Watanabe)
 #  Apache 2.0.

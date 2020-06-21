@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Parameters for extended lexicon.
 extend_lexicon=true

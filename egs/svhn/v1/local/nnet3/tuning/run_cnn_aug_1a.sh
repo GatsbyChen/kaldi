@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # nnet topology similar to 1a but bigger and with more epochs and data augmentation (improved 95 --> 97)
 

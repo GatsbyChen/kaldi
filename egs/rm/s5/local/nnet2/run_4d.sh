@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # local/nnet2/run_4d.sh is the new, faster version of the p-norm training script.

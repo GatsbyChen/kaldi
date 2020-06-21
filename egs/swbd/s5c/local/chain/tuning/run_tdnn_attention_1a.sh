@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # In this recipe everything is the same as tdnn_7k, except the
 # 7th TDNN layer has been replaced with an attention layer

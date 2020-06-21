@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 format=pdf # pdf svg
 mode=save # display save

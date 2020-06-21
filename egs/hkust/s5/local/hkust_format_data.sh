@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 
 if [ -f ./path.sh ]; then . ./path.sh; fi

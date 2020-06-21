@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # run_tdnn_1e.sh is like run_tdnn_1d.sh but batchnorm components instead of renorm

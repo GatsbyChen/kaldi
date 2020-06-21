@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Compute scores from RNNLM.  This script takes a directory
 # $dir (e.g. dir=local/rnnlm/rnnlm.voc30.hl30 ),

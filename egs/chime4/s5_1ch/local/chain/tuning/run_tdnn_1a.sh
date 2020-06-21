@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This was modified from wsj/local/chain/tunning/run_tdnn_1e.sh to be
 # used in Chime4.

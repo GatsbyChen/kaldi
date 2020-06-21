@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # _1b is as _1a, but different as follows
 # 1) It uses wsj phone set phones.txt and new lexicon generated using word pronunciation
 #    in swj lexincon.txt. rm words, that are not presented in wsj, are added as oov
@@ -181,6 +181,7 @@ if [ $stage -le 7 ]; then
     --cmd "$decode_cmd" \
     --trainer.input-model $dir/input.raw \
     --feat.online-ivector-dir "$ivector_dir" \
+    --chain.xent-regularize 0.1 \
     --feat.cmvn-opts "--norm-means=false --norm-vars=false" \
     --chain.xent-regularize 0.1 \
     --chain.leaky-hmm-coefficient 0.1 \

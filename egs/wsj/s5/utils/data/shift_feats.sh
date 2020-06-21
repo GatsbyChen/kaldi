@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2016    Vimal Manohar
 #           2017    Hossein Hadian

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _6i takes aspects from 5n and 6g.  Like 6g it uses a 'thin' jesus-layer
 # (no hidden dimension), and like 5n it uses a non-standard frame shift at the

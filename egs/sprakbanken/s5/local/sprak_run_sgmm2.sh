@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is invoked from ../run.sh
 # It contains some SGMM-related scripts that I am breaking out of the main run.sh for clarity.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5c is as _4w, but changing --xent-regularize to 0.05, since 0.2 seemed to be
 # worse than 0.1.

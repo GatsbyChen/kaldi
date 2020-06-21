@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script run_nnet2_b.sh is as run_nnet2.sh but it trains a larger network,
 # with 5 instead of 4 hidden layers and p-norm (input,output) dims of

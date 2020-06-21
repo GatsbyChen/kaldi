@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Warning-- this recipe is now out of date.  See ../s5c/ for the latest recipe.
 

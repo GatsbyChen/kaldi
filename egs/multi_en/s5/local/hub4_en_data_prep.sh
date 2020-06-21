@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1996/1997 English Broadcast News training data preparation (HUB4)
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1a but the neural network has two more TDNN layers (0,3 0,3)
 # above the lstm

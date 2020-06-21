@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2012  Neha Agrawal, Cisco Systems;
 #                 Johns Hopkins University (Author: Daniel Povey);

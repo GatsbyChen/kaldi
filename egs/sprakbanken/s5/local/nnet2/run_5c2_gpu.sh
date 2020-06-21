@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is neural net training on top of adapted 40-dimensional features.
 # This is an alternative to the run_5c_gpu.sh that will train faster if you

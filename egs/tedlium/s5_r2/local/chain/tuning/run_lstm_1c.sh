@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # run_lstm_1c.sh is like run_lstm_1b.sh but changing from the old LSTM

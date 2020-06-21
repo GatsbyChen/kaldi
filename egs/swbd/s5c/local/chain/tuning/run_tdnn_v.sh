@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _v is as _u but setting pdf-boundary-penalty to 0.0 (as in t->s),
 #   and also trying a smaller language model:   --lm-opts "--num-extra-states=0"

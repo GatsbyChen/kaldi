@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # run_tdnn_lstm_lfr_1a.sh is modified from the same named script

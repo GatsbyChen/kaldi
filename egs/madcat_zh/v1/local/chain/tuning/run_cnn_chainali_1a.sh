@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # chainali_1a is as 1a except it uses chain alignments (using 1a system) instead of gmm alignments
 

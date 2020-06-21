@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 . ./cmd.sh
 
 steps/make_denlats.sh --nj 30 --sub-split 30 --cmd "$train_cmd" \

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # steps/info/chain_dir_info.pl exp/chain_cleaned/tdnn_lstm1a_sp_bi

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 ###########################################################################################
 # This script was copied from egs/fisher_swbd/s5/local/nnet3/run_ivector_common.sh

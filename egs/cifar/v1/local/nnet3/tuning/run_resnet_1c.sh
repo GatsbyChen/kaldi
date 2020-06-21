@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 1c is as 1b but setting num-minibatches-history=40.0 in the configs,
 # so the Fisher matrix estimates change less fast.

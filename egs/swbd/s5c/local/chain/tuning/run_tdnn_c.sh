@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _c is as _a but getting rid of the final-layer-normalize-target (making it 1.0
 # as the default) as it's not clear that it was helpful; using the old learning-rates;

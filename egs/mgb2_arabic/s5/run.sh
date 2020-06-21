@@ -1,13 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright (C) 2016, Qatar Computing Research Institute, HBKU
 #               2017-19 Vimal Manohar
 # Apache 2.0
 
 stage=-1
-
-# preference on how to process xml file [python, xml]
-process_xml="python"
 
 . ./cmd.sh
 if [ -f ./path.sh ]; then . ./path.sh; fi
@@ -53,7 +50,7 @@ fi
 if [ $stage -le 1 ]; then
   #DATA PREPARATION
   echo "Preparing training data"
-  local/mgb_data_prep.sh DB $mer $process_xml
+  local/mgb_data_prep.sh DB $mer
 fi
 
 if [ $stage -le 2 ]; then

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 GIT=${GIT:-git}
 
@@ -105,7 +105,7 @@ echo >&2 "SEQUITUR_PACKAGE: ${site_packages_dir:-}"
 echo >&2 "SEQUITUR: $SEQUITUR"
 echo >&2 "PYTHONPATH: ${PYTHONPATH:-}"
 mkdir -p $SEQUITUR
-PYTHONPATH=${PYTHONPATH:-}:$SEQUITUR PYTHONUSERBASE=$(pwd) python setup.py install --user --prefix=
+PYTHONPATH=${PYTHONPATH:-}:$SEQUITUR python setup.py install --prefix `pwd`
 ) || {
   echo >&2 "Problem installing sequitur!"
   exit 1

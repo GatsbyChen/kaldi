@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #    This script normalizes hypothesis and reference file and performs scoring.
 #    Eg. ./local/yomdle/normalized_scoring/normalized_score.sh <output-dir> <input-hyp-file> <slam-language>

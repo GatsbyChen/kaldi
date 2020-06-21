@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Copyright 2018 Johns Hopkins University (Author: Shinji Watanabe)
 # Copyright 2018 Johns Hopkins University (Author: Aswin Shanmugam Subramanian)

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script contains some common (shared) parts of the run_nnet*.sh scripts.
 . cmd.sh

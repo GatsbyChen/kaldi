@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script is based on aishell/s5/local/nnet3/tuning/run_tdnn_1a.sh
 

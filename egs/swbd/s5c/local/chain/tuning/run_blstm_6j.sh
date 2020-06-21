@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # 6j is same as 6i but using the xconfig format of network specification.
 # Also, the model is trained without layer-wise discriminative pretraining.

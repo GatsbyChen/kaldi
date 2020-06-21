@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 # This script trains a Switchboard system starting from a neural net trained for

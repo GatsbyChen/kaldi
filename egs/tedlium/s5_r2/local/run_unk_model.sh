@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 utils/lang/make_unk_lm.sh data/local/dict exp/unk_lang_model

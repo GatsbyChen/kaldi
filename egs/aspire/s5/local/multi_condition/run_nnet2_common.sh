@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #set -e
 # this script is based on local/online/run_nnet2_comman.sh
 # but it operates on corrupted training/dev/test data sets

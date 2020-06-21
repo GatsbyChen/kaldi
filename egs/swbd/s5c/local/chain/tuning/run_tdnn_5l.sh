@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # _5l is as _5k, but doubling frames-per-eg from 150 to 300, and increasing
 # the context radius of the statistics-pooling from 99 to 153.

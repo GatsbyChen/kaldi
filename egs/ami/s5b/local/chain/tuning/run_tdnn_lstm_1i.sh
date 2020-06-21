@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # same as 1g but with TDNN output dim 1024 instead of 512
 # (num-params 1g:21309812 1i: 43447156)

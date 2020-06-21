@@ -1,8 +1,5 @@
 # OpenBLAS specific Linux configuration
 
-ifndef DEBUG_LEVEL
-$(error DEBUG_LEVEL not defined.)
-endif
 ifndef DOUBLE_PRECISION
 $(error DOUBLE_PRECISION not defined.)
 endif
@@ -26,17 +23,10 @@ CXXFLAGS = -std=c++11 -I.. -isystem $(OPENFSTINC) -O1 $(EXTRA_CXXFLAGS) \
            -DHAVE_EXECINFO_H=1 -DHAVE_CXXABI_H -DHAVE_OPENBLAS -I$(OPENBLASINC) \
            -m64 -maltivec -mcpu=power8 -mtune=power8 -mpower8-vector -mvsx \
            -pthread \
-           -g
+           -g # -O0 -DKALDI_PARANOID
 
 ifeq ($(KALDI_FLAVOR), dynamic)
 CXXFLAGS += -fPIC
-endif
-
-ifeq ($(DEBUG_LEVEL), 0)
-CXXFLAGS += -DNDEBUG
-endif
-ifeq ($(DEBUG_LEVEL), 2)
-CXXFLAGS += -O0 -DKALDI_PARANOID
 endif
 
 # Compiler specific flags

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Copyright    2018   Desh Raj
 # Apache 2.0
 

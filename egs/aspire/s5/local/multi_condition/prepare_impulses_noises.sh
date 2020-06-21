@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # set -e
 
 # Copyright 2014  Johns Hopkins University (Author: Vijayaditya Peddinti)

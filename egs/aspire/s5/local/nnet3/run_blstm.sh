@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # based on egs/fisher_swbd/s5/local/nnet3/run_lstm.sh
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This program searches within a directory for soft links that
 # appear to be created by 'create_data_link.pl' to a 'storage/' subdirectory,

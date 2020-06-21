@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # this script is to train a small, pruned n-gram backoff LM to be used for sampling
 # purposes during RNNLM training.  It uses the C++ tool that we wrote for this

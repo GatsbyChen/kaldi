@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # This script requires that you have run the toplevel run.sh script in TEDLIUM up to stage 7.
 #

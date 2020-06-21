@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2014  Pegah Ghahremani
 #           2014  Johns Hopkins (Yenda Trmal)

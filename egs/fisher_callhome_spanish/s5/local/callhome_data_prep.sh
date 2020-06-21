@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Copyright 2014  Gaurav Kumar.   Apache 2.0
 # The input is the Callhome Spanish Dataset. (*.sph files)

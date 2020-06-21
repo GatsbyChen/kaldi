@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Copyright 2018 Emotech LTD (Author: Xuechen LIU)
 # Apache 2.0

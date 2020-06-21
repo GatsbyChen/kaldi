@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This is as run_sgmm.sh but using the "sgmm2" code, which uses "state-clustered tied mixtures"
 # and the symmetric SGMM, and one or two other small changes (e.g. no updating of M for a few

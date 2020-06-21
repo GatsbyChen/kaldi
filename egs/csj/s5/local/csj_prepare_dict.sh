@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Making dictionary using CSJ data with morpheme analysis.
 # from the one in Kaldi s5 recipe in that it uses lower-case --Arnab (Jan 2013)
