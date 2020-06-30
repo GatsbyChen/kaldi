@@ -1056,7 +1056,7 @@ else
     OPENFSTLIBS="$FSTROOT/lib/libfst.dylib"
     OPENFSTLDFLAGS="-Wl,-rpath -Wl,${FSTROOT}/lib"
   elif [ "`uname`" == "Linux" ]; then
-    OPENFSTLIBS="$FSTROOT/lib/.libs/libfst.so"
+    OPENFSTLIBS="$FSTROOT/lib/libfst.so"
     OPENFSTLDFLAGS="-Wl,-rpath=${FSTROOT}/lib"
   else
     failure "Dynamic libraries are not supported on this platform.
